@@ -1,0 +1,45 @@
+/*
+ * operatorstack.h
+ *
+ *  Created on: 14-Jan-2017
+ *      Author: acer
+ */
+
+#ifndef OPERATORSTACK_H_
+#define OPERATORSTACK_H_
+
+//PREDEFINING SIZE OF QUEUE
+#define SIZE 10
+
+//DLL NODE
+struct opstack
+{
+	struct opstack *prev ;
+	char data ;
+	struct opstack *next ;
+} ;
+
+class operator_stack
+{
+	//PRIVATE DATA MEMBERS
+private :
+	struct opstack *top ;				//POINTER WHICH STORES TOPPEST VALUE OF STACK
+
+	//PUBLIC MEMBER FUNCTIONS
+public :
+
+	//CONSTRUCTOR
+	operator_stack();
+
+	//DESTRUCTOR
+	~operator_stack() ;
+
+	//MEMBER FUNCTIONS
+	int push (int &fsize , char fidata);
+	int pop (int &fsize , char &fddata) ;
+	int stackfull (int fsize) ;
+	int stackempty (int fsize) ;
+	char getdata ();
+};
+
+#endif /* OPERATORSTACK_H_ */

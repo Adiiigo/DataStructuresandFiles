@@ -1,0 +1,36 @@
+/*
+ * bst.h
+ *
+ *  Created on: 23-Apr-2017
+ *      Author: acer
+ */
+
+#ifndef BST_H_
+#define BST_H_
+
+struct dll
+{
+	struct dll *lchild;
+	int data;
+	struct dll *rchild;
+};
+class bst {
+private:
+	struct dll *root;
+public:
+	int insertnode(struct dll **node,int ndata);
+	void search(struct dll **node,struct dll *snode,int ndata);
+	void searchnode(struct dll *snode,int ndata,int &flag);
+	void deletetree(struct dll **dnode);
+	void getroot(struct dll **node);
+	void display(struct dll *node);
+	void display_level(struct dll *node/*,int nn*/);
+	void mirror(struct dll *node,struct dll **snode);
+	int theight(struct dll *node);
+	void printlevel(struct dll *node,int d);
+	struct dll * deletenode(struct dll *dnode,int ddata);
+	bst();
+	virtual ~bst();
+};
+
+#endif /* BST_H_ */

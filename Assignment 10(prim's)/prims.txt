@@ -1,0 +1,37 @@
+/*
+ * prims.h
+ *
+ *  Created on: 19-Apr-2017
+ *      Author: acer
+ */
+
+#ifndef PRIMS_H_
+#define PRIMS_H_
+
+#define SIZE 10
+#define INF 9999
+
+class prims
+{
+private:
+
+	int cost[SIZE][SIZE] ;
+	int vertex[20] ;
+	int dist[20] ;
+	int visited[SIZE] ;
+	int path[SIZE] ;
+
+public:
+
+	prims();
+	~prims();
+
+	void init( void ) ;
+	int menu( void ) ;
+	void create( int num ) ;
+	int mstprims( int num ) ;
+	int mst(int fvertices);
+
+};
+
+#endif /* PRIMS_H_ */

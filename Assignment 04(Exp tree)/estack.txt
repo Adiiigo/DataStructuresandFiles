@@ -1,0 +1,32 @@
+/*
+ * estack.h
+ *
+ *  Created on: 25-Jan-2017
+ *      Author: acer
+ */
+
+# ifndef ESTACK_H_
+# define ESTACK_H_
+# define SIZE 10
+
+struct stacknode
+{
+	struct stacknode *prev ;
+	struct ExpTreeNode *data ;
+	struct stacknode *next ;
+};
+
+class estack
+{
+	struct stacknode *top ;
+
+public :
+	estack(void) ;
+	~estack(void);
+	int push(int &fcount,struct ExpTreeNode *idata) ;
+	int pop(int &fcount,struct ExpTreeNode **ddata) ;
+	int stackfull(int fcount) ;
+	int stackempty(int fcount) ;
+} ;
+
+#endif /* ESTACK_H_ */

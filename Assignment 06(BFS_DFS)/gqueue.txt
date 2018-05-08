@@ -1,0 +1,46 @@
+/*
+ * gqueue.h
+ *
+ *  Created on: 16-Jan-2017
+ *      Author: acer
+ */
+
+#ifndef GQUEUE_H_
+#define GQUEUE_H_
+
+//PREDEFINING SIZE OF QUEUE
+#define SIZE 10
+
+//DLL NODE OF PATIENT QUEUE
+struct gqueuenode
+{
+	struct gqueuenode *prev ;
+	char name;
+	struct gqueuenode *next ;
+};
+
+
+class gqueue
+{
+
+	//PRIVATE DATA MEMBERS
+private:
+
+	struct gqueuenode *rear ;
+	struct gqueuenode *front ;
+
+	//PUBLIC MEMBER FUNCTIONS
+public:
+	//CONSTRUCTOR
+	gqueue(void);
+	//DESTRUCTOR
+	~gqueue(void) ;
+
+	//MEMBER FUNCTIONS
+	int insertgq(int &fcount, char fidata) ;
+	int deletegq(int &fcount, char &fddata) ;
+	int queuefull(int fcount) ;
+	int queueempty(int fcount) ;
+};
+
+#endif /* GQUEUE_H_ */

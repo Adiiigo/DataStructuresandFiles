@@ -1,0 +1,32 @@
+/*
+ * pqueue.h
+ *
+ *  Created on: 23-Apr-2017
+ *      Author: acer
+ */
+
+#ifndef PQUEUE_H_
+#define PQUEUE_H_
+
+#define SIZE 10
+struct dllnode
+{
+	struct dllnode *pre;
+	struct dll *data;
+	struct dllnode *next;
+};
+class pqueue {
+private:
+	int count;
+	struct dllnode *front;
+	struct dllnode *rear;
+public:
+	pqueue();
+	virtual ~pqueue();
+	int insert_ele(struct dll *node);
+	int delete_ele(struct dll **node);
+	int queuefull();
+	int queueempty();
+};
+
+#endif /* PQUEUE_H_ */

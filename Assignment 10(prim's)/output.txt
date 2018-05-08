@@ -1,0 +1,73 @@
+
+
+	.......MAIN MENU.......
+	 1. Create network 
+	 2. Find minimum cost to connect all offices using phone lines 
+	 0. Exit 
+	 Enter your choice : 1
+
+ Enter no. of offices you want to connect in a network  : 3
+
+
+ Do you want to connect 0 office and 1 office : y
+
+ Enter the cost of the phone line to be laid between 0 and 1 office : 2
+
+
+ Do you want to connect 0 office and 2 office : y
+
+ Enter the cost of the phone line to be laid between 0 and 2 office : 3
+
+
+ Do you want to connect 1 office and 2 office : y
+
+ Enter the cost of the phone line to be laid between 1 and 2 office : 8
+
+
+	.......MAIN MENU.......
+	 1. Create network 
+	 2. Find minimum cost to connect all offices using phone lines 
+	 0. Exit 
+	 Enter your choice : 2
+
+Enter Start Vertex0
+
+
+ Path to connect the offices is : 	0	1	2
+
+	 TOTAL COST OF CONNECTING THE OFFICES IS : 5
+
+	.......MAIN MENU.......
+	 1. Create network 
+	 2. Find minimum cost to connect all offices using phone lines 
+	 0. Exit 
+	 Enter your choice : 2
+
+Enter Start Vertex1
+
+
+ Path to connect the offices is : 	1	0	2
+
+	 TOTAL COST OF CONNECTING THE OFFICES IS : 5
+
+	.......MAIN MENU.......
+	 1. Create network 
+	 2. Find minimum cost to connect all offices using phone lines 
+	 0. Exit 
+	 Enter your choice : 2
+
+Enter Start Vertex2
+
+
+ Path to connect the offices is : 	2	0	1
+
+	 TOTAL COST OF CONNECTING THE OFFICES IS : 5
+
+	.......MAIN MENU.......
+	 1. Create network 
+	 2. Find minimum cost to connect all offices using phone lines 
+	 0. Exit 
+	 Enter your choice : 0
+
+
+		.....THANK U.....

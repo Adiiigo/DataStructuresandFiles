@@ -1,0 +1,197 @@
+
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 1
+
+Enter Roll no. 0
+
+Enter Roll no. 20
+
+Enter Name :aditi
+
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 1
+
+Enter Roll no. 40
+
+Enter Name :shivani
+
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 12
+
+ Wrong choice
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 1
+
+Enter Roll no. 12
+
+Enter Name :kunwar
+
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 4
+
+Rollno	name	chain
+
+20	aditi	1
+40	shivani	-1
+12	kunwar	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 1
+
+Enter Roll no. 2
+
+Enter Name :anjlai
+
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 4
+
+Rollno	name	chain
+
+20	aditi	1
+40	shivani	-1
+12	kunwar	3
+2	anjlai	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 2
+
+Enter roll no of a student to be modified : 20
+
+Record Found at 0 location
+20	aditi
+Enter modified name of a studentgoyal
+
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 4
+
+Rollno	name	chain
+
+20	goyal	1
+40	shivani	-1
+12	kunwar	3
+2	anjlai	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 3
+Enter a roll no of a record to be searched : 40
+
+Record Found at 1 location
+40	shivani
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 4
+
+Rollno	name	chain
+
+20	goyal	1
+40	shivani	-1
+12	kunwar	3
+2	anjlai	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+-1	-	-1
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 3
+Enter a roll no of a record to be searched : 1
+
+Record Not found
+
+	 ***MENU***
+ 1.Add record
+ 2.Modify
+ 3.Search
+ 4.Display Records
+ 0.exit
+	 Enter your choice : 0
+
+ Thank You!

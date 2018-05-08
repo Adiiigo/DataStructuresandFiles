@@ -1,0 +1,38 @@
+/*
+ * btree.h
+ *
+ *  Created on: 23-Apr-2017
+ *      Author: acer
+ */
+
+#ifndef BTREE_H_
+#define BTREE_H_
+
+struct dll
+{
+	struct dll *lchild;
+	int data;
+	struct dll *rchild;
+};
+
+class btree
+{
+private:
+	struct dll *root;
+public:
+	int insertnode(struct dll **node,int child,int ndata);
+	void search(struct dll **node,struct dll **snode,int parent);
+	void deletenode(struct dll **dnode);
+	void getroot(struct dll **node);
+	void display(struct dll *node);
+	int theight(struct dll *node);
+	void tleaf(struct dll *node);
+	void tcopy(struct dll *node,struct dll **snode);
+	int deepth();
+	int leafnodes();
+	int copytree();
+	btree();
+	virtual ~btree();
+};
+
+#endif /* BTREE_H_ */

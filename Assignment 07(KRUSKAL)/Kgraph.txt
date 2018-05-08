@@ -1,0 +1,65 @@
+/*
+ * Kgraph.h
+ *
+ *  Created on: 18-Mar-2017
+ *      Author: acer
+ */
+
+#ifndef KGRAPH_H_
+#define KGRAPH_H_
+
+#define SIZE 10
+#define SIZ 30
+
+struct vnode
+{
+	int vindex ;
+	char vname ;
+	struct hnode *vhead ;
+	struct hnode *vlast ;
+};
+
+struct hnode
+{
+	int hindex ;
+	int hweight ;
+	struct hnode *hnext ;
+};
+
+struct edge
+{
+	int sindex ;
+	int eindex ;
+	int weight ;
+};
+
+struct visitedarray
+{
+	char name;
+	int flag;
+};
+
+class Kgraph
+{
+	int m[SIZE][SIZE] ;
+	struct vnode v[SIZE] ;
+	struct visitedarray varray[SIZE] ;
+	struct edge e[SIZ] ;
+
+public:
+	Kgraph();
+	~Kgraph();
+
+	void createAdjMatrix(int fvertices,int &fedges);
+	void createAdjList(int fvertices, int &fedges);
+
+	void displayAdjMatrix(int fvertices);
+	void displayAdjList(int fvertices);
+
+	void displayVisitedArray(int fvertices);
+	void displayEdgeArray(int fedges);
+
+	void minimumSpanningTree(int fvertices,int fedges);
+};
+
+#endif /* KGRAPH_H_ */

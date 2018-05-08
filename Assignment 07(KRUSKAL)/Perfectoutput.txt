@@ -1,0 +1,239 @@
+
+
+		----Main Menu----
+		1.Accept Data
+		2.Diplay Data
+		3.Find Minimum spanning Tree
+		0.Exit
+Enter Your Choice:1
+
+Enter Total No.of Vertices :7
+
+
+		---SUBMENU---
+		1.Using Adjacency Matrix
+		2.Using Adjacency List 
+		0.Exit SubMenu
+		Enter Your Choice :1
+
+	---Using Adjacentcy Matrix--- 
+*******************************************************
+		FOR VERTEX 1
+
+Enter Name of Vertex 1 : a
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 1 and Vertex 2 ?(y/n) :y
+
+Enter weight Between Them:28
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 1 and Vertex 3 ?(y/n) :n
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 1 and Vertex 4 ?(y/n) :n
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 1 and Vertex 5 ?(y/n) :n
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 1 and Vertex 6 ?(y/n) :y
+
+Enter weight Between Them:10
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 1 and Vertex 7 ?(y/n) :n
+
+*******************************************************
+		FOR VERTEX 2
+
+Enter Name of Vertex 2 : b
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 2 and Vertex 3 ?(y/n) :y
+
+Enter weight Between Them:16
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 2 and Vertex 4 ?(y/n) :n
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 2 and Vertex 5 ?(y/n) :n
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 2 and Vertex 6 ?(y/n) :n
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 2 and Vertex 7 ?(y/n) :y
+
+Enter weight Between Them:14
+
+*******************************************************
+		FOR VERTEX 3
+
+Enter Name of Vertex 3 : c
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 3 and Vertex 4 ?(y/n) :y
+
+Enter weight Between Them:12
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 3 and Vertex 5 ?(y/n) :n
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 3 and Vertex 6 ?(y/n) :n
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 3 and Vertex 7 ?(y/n) :n
+
+*******************************************************
+		FOR VERTEX 4
+
+Enter Name of Vertex 4 : d
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 4 and Vertex 5 ?(y/n) :y
+
+Enter weight Between Them:22
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 4 and Vertex 6 ?(y/n) :n
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 4 and Vertex 7 ?(y/n) :y
+
+Enter weight Between Them:18
+
+*******************************************************
+		FOR VERTEX 5
+
+Enter Name of Vertex 5 : e
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 5 and Vertex 6 ?(y/n) :
+y
+
+Enter weight Between Them:25
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 5 and Vertex 7 ?(y/n) :n
+
+*******************************************************
+		FOR VERTEX 6
+
+Enter Name of Vertex 6 : f
+
+-------------------------------------
+
+Is There Exists An Edge Between Vertex 6 and Vertex 7 ?(y/n) :n
+
+*******************************************************
+		FOR VERTEX 7
+
+Enter Name of Vertex 7 : g
+
+*******************************************************
+		no . of links=8
+
+		----Main Menu----
+		1.Accept Data
+		2.Diplay Data
+		3.Find Minimum spanning Tree
+		0.Exit
+Enter Your Choice:2
+
+	---Displaying Using Adjacentcy Matrix--- 
+	a	b	c	d	e	f	g
+a	0	28	0	0	0	10	0
+b	28	0	16	0	0	0	14
+c	0	16	0	12	0	0	0
+d	0	0	12	0	22	0	18
+e	0	0	0	22	0	25	0
+f	10	0	0	0	25	0	0
+g	0	14	0	18	0	0	0
+
+
+		----Main Menu----
+		1.Accept Data
+		2.Diplay Data
+		3.Find Minimum spanning Tree
+		0.Exit
+Enter Your Choice:3
+
+
+	---Displaying UNSORETD Edge Array--- 
+	StartI	EndI	Weight
+	0	1	28	
+	0	5	10	
+	1	2	16	
+	1	6	14	
+	2	3	12	
+	3	4	22	
+	3	6	18	
+	4	5	25	
+-------------------------------------
+
+	---Displaying SORETD Edge Array--- 
+	StartI	EndI	Weight
+	0	5	10	
+	2	3	12	
+	1	6	14	
+	1	2	16	
+	3	6	18	
+	3	4	22	
+	4	5	25	
+	0	1	28	
+-------------------------------------
+
+Name	a	b	c	d	e	f	g	
+Index	1	0	0	0	0	1	0	
+
+Name	a	b	c	d	e	f	g	
+Index	1	0	2	2	0	1	0	
+
+Name	a	b	c	d	e	f	g	
+Index	1	3	2	2	0	1	3	
+
+Name	a	b	c	d	e	f	g	
+Index	1	2	2	2	0	1	2	
+
+Name	a	b	c	d	e	f	g	
+Index	1	2	2	2	0	1	2	
+
+Name	a	b	c	d	e	f	g	
+Index	1	2	2	2	2	1	2	
+
+Name	a	b	c	d	e	f	g	
+Index	1	1	1	1	1	1	1	
+
+Name	a	b	c	d	e	f	g	
+Index	1	1	1	1	1	1	1	
+		Weight Of Mst =99
+
+		----Main Menu----
+		1.Accept Data
+		2.Diplay Data
+		3.Find Minimum spanning Tree
+		0.Exit
+Enter Your Choice:

@@ -1,0 +1,41 @@
+/*
+ * eval.h
+ *
+ *  Created on: 21-Jan-2017
+ *      Author: acer
+ */
+
+#ifndef EVAL_H_
+#define EVAL_H_
+#define SIZE 10
+
+//DLL NODE
+struct eval_node
+{
+	struct eval_node *prev ;
+	int data ;
+	struct eval_node *next ;
+};
+
+
+class eval
+{
+	//PRIVATE DATA MEMBERS
+private:
+	struct eval_node *top ;
+
+	//PUBLIC MEMBER FUNCTIONS
+public:
+	//CONSTRUCTOR
+	eval() ;
+	//DESTRUCTOR
+	virtual ~eval() ;
+
+	//MEMBER FUNCTIONS
+	int push(int &fsize, int fidata) ;
+	int pop(int &fsize,int &fddata) ;
+	//int stackfull(int fsize) ;
+	int stackempty(int fsize) ;
+};
+
+#endif /* EVAL_H_ */

@@ -1,0 +1,703 @@
+
+
+		----Menu----
+		1.Insert Infix String
+		2.Display Infix to Postfix String
+		3.Display Infix to Prefix String
+
+		4.Insert Prefix String
+		5.Display Prefix to Infix
+
+		6.Insert Postfix String
+		7.Display Postfix to Infix String
+
+		8.Evaluation of Prefix String
+		9.Evaluation of Postfix String
+
+		0.Exit 
+
+Enter Your Choice:1
+
+Enter Infix String:a^b+c
+
+
+		----Menu----
+		1.Insert Infix String
+		2.Display Infix to Postfix String
+		3.Display Infix to Prefix String
+
+		4.Insert Prefix String
+		5.Display Prefix to Infix
+
+		6.Insert Postfix String
+		7.Display Postfix to Infix String
+
+		8.Evaluation of Prefix String
+		9.Evaluation of Postfix String
+
+		0.Exit 
+
+Enter Your Choice:2
+
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		fsize=0
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: ^
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		fsize=0
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: +
+Object Is Deleted
+
+		Postfix String=ab^c+
+
+		----Menu----
+		1.Insert Infix String
+		2.Display Infix to Postfix String
+		3.Display Infix to Prefix String
+
+		4.Insert Prefix String
+		5.Display Prefix to Infix
+
+		6.Insert Postfix String
+		7.Display Postfix to Infix String
+
+		8.Evaluation of Prefix String
+		9.Evaluation of Postfix String
+
+		0.Exit 
+
+Enter Your Choice:3
+
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		fsize=0
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: ^
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: b
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: a
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		fsize=0
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: +
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: c
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: ^ab
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+Object Is Deleted
+
+		Prefix String=+^abc
+
+		----Menu----
+		1.Insert Infix String
+		2.Display Infix to Postfix String
+		3.Display Infix to Prefix String
+
+		4.Insert Prefix String
+		5.Display Prefix to Infix
+
+		6.Insert Postfix String
+		7.Display Postfix to Infix String
+
+		8.Evaluation of Prefix String
+		9.Evaluation of Postfix String
+
+		0.Exit 
+
+Enter Your Choice:4
+
+Enter Prefix String:+^abc
+
+
+		----Menu----
+		1.Insert Infix String
+		2.Display Infix to Postfix String
+		3.Display Infix to Prefix String
+
+		4.Insert Prefix String
+		5.Display Prefix to Infix
+
+		6.Insert Postfix String
+		7.Display Postfix to Infix String
+
+		8.Evaluation of Prefix String
+		9.Evaluation of Postfix String
+
+		0.Exit 
+
+Enter Your Choice:5
+
+
+		Reverse String: cba^+
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: a
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: b
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: (a^b)
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: c
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: ((a^b)+c)
+Object Is Deleted
+
+		Infix String=((a^b)+c)
+
+		----Menu----
+		1.Insert Infix String
+		2.Display Infix to Postfix String
+		3.Display Infix to Prefix String
+
+		4.Insert Prefix String
+		5.Display Prefix to Infix
+
+		6.Insert Postfix String
+		7.Display Postfix to Infix String
+
+		8.Evaluation of Prefix String
+		9.Evaluation of Postfix String
+
+		0.Exit 
+
+Enter Your Choice:6
+
+Enter Postfix String:ab^c+
+
+
+		----Menu----
+		1.Insert Infix String
+		2.Display Infix to Postfix String
+		3.Display Infix to Prefix String
+
+		4.Insert Prefix String
+		5.Display Prefix to Infix
+
+		6.Insert Postfix String
+		7.Display Postfix to Infix String
+
+		8.Evaluation of Prefix String
+		9.Evaluation of Postfix String
+
+		0.Exit 
+
+Enter Your Choice:7
+
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: b
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: a
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: c
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: (a^b)
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: ((a^b)+c)
+Object Is Deleted
+
+		Infix String=((a^b)+c)
+
+		----Menu----
+		1.Insert Infix String
+		2.Display Infix to Postfix String
+		3.Display Infix to Prefix String
+
+		4.Insert Prefix String
+		5.Display Prefix to Infix
+
+		6.Insert Postfix String
+		7.Display Postfix to Infix String
+
+		8.Evaluation of Prefix String
+		9.Evaluation of Postfix String
+
+		0.Exit 
+
+Enter Your Choice:8
+
+Enter Prefix String:+^abc
+
+Enter Value of c :1
+
+Enter Value of b :2
+
+Enter Value of a :3
+
+No. of Varibale in Prefix String :3
+
+		Reverse String: cba^+
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened 
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened 
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened 
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: 3
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: 2
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: 9
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: 1
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: 10
+Object Is Deleted
+
+		After Evaluation.
+		Value=10
+
+		----Menu----
+		1.Insert Infix String
+		2.Display Infix to Postfix String
+		3.Display Infix to Prefix String
+
+		4.Insert Prefix String
+		5.Display Prefix to Infix
+
+		6.Insert Postfix String
+		7.Display Postfix to Infix String
+
+		8.Evaluation of Prefix String
+		9.Evaluation of Postfix String
+
+		0.Exit 
+
+Enter Your Choice:9
+
+Enter Postfix String:ab^c+
+ 
+Enter Value of a :3
+ 
+Enter Value of b :2
+ 
+Enter Value of c :1
+
+No. of Varibale in Postfix String :3
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: 2
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: 3
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: 1
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: 9
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: 10
+Object Is Deleted
+
+		After Evaluation.
+		Value=10
+
+		----Menu----
+		1.Insert Infix String
+		2.Display Infix to Postfix String
+		3.Display Infix to Prefix String
+
+		4.Insert Prefix String
+		5.Display Prefix to Infix
+
+		6.Insert Postfix String
+		7.Display Postfix to Infix String
+
+		8.Evaluation of Prefix String
+		9.Evaluation of Postfix String
+
+		0.Exit 
+
+Enter Your Choice:0
+
+
+		Exited From The Menu

@@ -1,0 +1,97 @@
+
+
+ Menu
+1.Insert node
+2.Display tree
+3.Delete node
+4.Mirror image 
+5.Search 
+6.Level wise display
+
+Enter your choice: 1
+
+Enter node's data: 2
+
+Node added successfully
+
+ Menu
+1.Insert node
+2.Display tree
+3.Delete node
+4.Mirror image 
+5.Search 
+6.Level wise display
+
+Enter your choice: 1
+
+Enter node's data: 1
+
+Node added successfully
+
+ Menu
+1.Insert node
+2.Display tree
+3.Delete node
+4.Mirror image 
+5.Search 
+6.Level wise display
+
+Enter your choice: 1
+
+Enter node's data: 3
+
+Node added successfully
+
+ Menu
+1.Insert node
+2.Display tree
+3.Delete node
+4.Mirror image 
+5.Search 
+6.Level wise display
+
+Enter your choice: 2
+	1	2	3
+
+ Menu
+1.Insert node
+2.Display tree
+3.Delete node
+4.Mirror image 
+5.Search 
+6.Level wise display
+
+Enter your choice: 4
+
+Original tree: 	1	2	3
+
+Mirror image of tree: 	3	2	1
+
+ Menu
+1.Insert node
+2.Display tree
+3.Delete node
+4.Mirror image 
+5.Search 
+6.Level wise display
+
+Enter your choice: 5
+
+Enter node's data to be searched: 1
+
+	Node found!!
+
+ Menu
+1.Insert node
+2.Display tree
+3.Delete node
+4.Mirror image 
+5.Search 
+6.Level wise display
+
+Enter your choice: 5
+
+Enter node's data to be searched: 6
+
+	Node does not exist!!
+

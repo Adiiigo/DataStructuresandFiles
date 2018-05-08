@@ -1,0 +1,42 @@
+/*
+ * operand.h
+ *
+ *  Created on: 14-Jan-2017
+ *      Author: acer
+ */
+
+#ifndef OPERAND_H_
+#define OPERAND_H_
+
+//PREDEFINING SIZE OF stack
+#define SIZE 10
+struct opnd_stack
+{
+	struct opnd_stack *prev ;
+	char data[20];
+	struct opnd_stack *next ;
+};
+
+class operand
+{
+	//PRIVATE DATA MEMBERS
+private:
+	struct opnd_stack *top ;
+
+	//PUBLIC MEMBER FUNCTIONS
+public:
+
+	//CONSTRUCTOR
+	operand();
+
+	//DESTRUCTOR
+	virtual ~operand() ;
+
+	//MEMBER FUNCTIONS
+	int push(int &fsize, char fidata[20]) ;
+	int pop(int &fsize,char fddata[20]) ;
+	int stackfull(int fsize) ;
+	int stackempty(int fsize) ;
+};
+
+#endif /* OPERAND_H_ */

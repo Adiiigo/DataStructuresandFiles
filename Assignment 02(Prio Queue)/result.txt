@@ -1,0 +1,125 @@
+
+
+		----Menu----
+		1.Insert Patients
+		2.Extract Patients
+		0.Exit
+
+Enter Your Choice: 1
+
+Enter Patient Name:Aditi
+
+Enter Priority of Patient(1=High,2=Medium,3=Low):1
+
+		You Can Continue!!!
+		Successful Addition of Patient
+
+		----Menu----
+		1.Insert Patients
+		2.Extract Patients
+		0.Exit
+
+Enter Your Choice: 1
+
+Enter Patient Name:Anjali
+
+Enter Priority of Patient(1=High,2=Medium,3=Low):2
+
+		You Can Continue!!!
+		Successful Addition of Patient
+
+		----Menu----
+		1.Insert Patients
+		2.Extract Patients
+		0.Exit
+
+Enter Your Choice: 1
+
+Enter Patient Name:Shivani
+
+Enter Priority of Patient(1=High,2=Medium,3=Low):3
+
+		You Can Continue!!!
+		Successful Addition of Patient
+
+		----Menu----
+		1.Insert Patients
+		2.Extract Patients
+		0.Exit
+
+Enter Your Choice: 2
+
+
+		Extraction Successful
+		Patient Name:Aditi
+
+		----Menu----
+		1.Insert Patients
+		2.Extract Patients
+		0.Exit
+
+Enter Your Choice: 2
+
+
+		Extraction Successful
+		Patient Name:Anjali
+
+		----Menu----
+		1.Insert Patients
+		2.Extract Patients
+		0.Exit
+
+Enter Your Choice: 1
+
+Enter Patient Name:Kunwar
+
+Enter Priority of Patient(1=High,2=Medium,3=Low):1
+
+		You Can Continue!!!
+		Successful Addition of Patient
+
+		----Menu----
+		1.Insert Patients
+		2.Extract Patients
+		0.Exit
+
+Enter Your Choice: 2
+
+
+		Extraction Successful
+		Patient Name:Kunwar
+
+		----Menu----
+		1.Insert Patients
+		2.Extract Patients
+		0.Exit
+
+Enter Your Choice: 2
+
+
+		Extraction Successful
+		Patient Name:Shivani
+
+		----Menu----
+		1.Insert Patients
+		2.Extract Patients
+		0.Exit
+
+Enter Your Choice: 2
+
+
+		Queue Is Completely Empty
+		Insert Element First In The Queue
+
+		----Menu----
+		1.Insert Patients
+		2.Extract Patients
+		0.Exit
+
+Enter Your Choice: 0
+
+
+		Exited From The Menu
+Object Is Deleted
+Object Is Deleted
+Object Is Deleted

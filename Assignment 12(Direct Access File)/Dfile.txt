@@ -1,0 +1,34 @@
+/*
+ * Dfile.h
+ *
+ *  Created on: 20-Apr-2017
+ *      Author: acer
+ */
+
+#ifndef DFILE_H_
+#define DFILE_H_
+
+#define SIZE 10
+
+struct details
+{
+	int roll ;
+	char name[20] ;
+	int chain ;
+};
+
+class Dfile
+{
+	details s ;
+public:
+	Dfile();
+	virtual ~Dfile();
+	int hash(int roll);
+	void display();
+	void addrecord(struct details r);
+	int search(int);
+	void modify();
+	void addrecord1(struct details r) ;
+};
+
+#endif /* DFILE_H_ */

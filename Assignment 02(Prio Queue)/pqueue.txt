@@ -1,0 +1,46 @@
+/*
+ * pqueue.h
+ *
+ *  Created on: 16-Jan-2017
+ *      Author: acer
+ */
+
+#ifndef PQUEUE_H_
+#define PQUEUE_H_
+
+//PREDEFINING SIZE OF QUEUE
+#define SIZE 10
+
+//DLL NODE OF PATIENT QUEUE
+struct patient_queue
+{
+	struct patient_queue *prev ;
+	char name[20];
+	struct patient_queue *next ;
+};
+
+
+class pqueue
+{
+
+	//PRIVATE DATA MEMBERS
+private:
+
+	struct patient_queue *rear ;
+	struct patient_queue *front ;
+
+	//PUBLIC MEMBER FUNCTIONS
+public:
+	//CONSTRUCTOR
+	pqueue(void);
+	//DESTRUCTOR
+	~pqueue(void) ;
+
+	//MEMBER FUNCTIONS
+	int insertpq(int &fcount, char fidata[20]) ;
+	int deletepq(int &fcount, char fddata[20]) ;
+	int queuefull(int fcount) ;
+	int queueempty(int fcount) ;
+};
+
+#endif /* PQUEUE_H_ */

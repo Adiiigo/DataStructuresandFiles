@@ -1,0 +1,51 @@
+/*
+ * hashing.h
+ *
+ *  Created on: 20-Feb-2017
+ *      Author: acer
+ */
+
+#ifndef HASHING_H_
+#define HASHING_H_
+
+#define SIZE 10
+
+struct datanode
+{
+	int index;
+	int data;
+	struct datanode *next;
+};
+
+class hashing
+{
+
+private:
+	int arr[SIZE];
+	int chain[SIZE];
+
+public:
+
+	hashing();
+	virtual ~hashing();
+	void clean();
+
+	int insertDataWorWoc(int farray[SIZE]) ;
+	int searchDataWorWoc(int farray[SIZE]) ;
+
+	int insertDataWorWc(int farray[SIZE]) ;
+	int searchDataWorWc(int farray[SIZE]) ;
+
+	int insertDataWrWoc(int farray[SIZE]) ;
+	int searchDataWrWoc(int farray[SIZE]) ;
+
+	int insertDataWrWc(int farray[SIZE]) ;
+	int searchDataWrWc(int farray[SIZE]) ;
+
+	int insertDatall(struct datanode s[10] ,int farray[SIZE]) ;
+	int searchDatall(struct datanode s[10] ,int farray[SIZE]) ;
+
+	void displayData() ;
+};
+
+#endif /* HASHING_H_ */

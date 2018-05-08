@@ -1,0 +1,178 @@
+
+
+		---Menu---
+		1.Add a Record 
+		2.Display a Record 
+		3.Display All Record 
+		4.Modify a Record 
+		5.Delete A Record 
+		0.Exit
+Enter your Choice :1
+
+---Enter details of the student---
+Enter Roll no. 1
+
+Enter Name :aditi
+
+Enter Division :A
+
+Enter Address :ADB
+SUCCESSFULL ADDITION OF RECORD!!!
+
+		---Menu---
+		1.Add a Record 
+		2.Display a Record 
+		3.Display All Record 
+		4.Modify a Record 
+		5.Delete A Record 
+		0.Exit
+Enter your Choice :1
+
+---Enter details of the student---
+Enter Roll no. 1
+
+RECORD ALREADY EXISTS!!!
+Enter Roll no. 2
+
+Enter Name :ANJALI
+
+Enter Division :E
+
+Enter Address :EDC
+SUCCESSFULL ADDITION OF RECORD!!!
+
+		---Menu---
+		1.Add a Record 
+		2.Display a Record 
+		3.Display All Record 
+		4.Modify a Record 
+		5.Delete A Record 
+		0.Exit
+Enter your Choice :1
+
+---Enter details of the student---
+Enter Roll no. 1
+
+RECORD ALREADY EXISTS!!!
+Enter Roll no. 2
+
+RECORD ALREADY EXISTS!!!
+Enter Roll no. 3
+
+Enter Name :SHIVANI
+
+Enter Division :B
+
+Enter Address :ERT
+SUCCESSFULL ADDITION OF RECORD!!!
+
+		---Menu---
+		1.Add a Record 
+		2.Display a Record 
+		3.Display All Record 
+		4.Modify a Record 
+		5.Delete A Record 
+		0.Exit
+Enter your Choice :2
+
+Enter Roll no. of the Record to be Displayed:4
+
+RECORD NOT FOUND!!!
+Enter Roll no. of the Record to be Displayed:1
+
+Roll no. :1
+Name :aditi
+Division:A
+Address:ADB
+
+		---Menu---
+		1.Add a Record 
+		2.Display a Record 
+		3.Display All Record 
+		4.Modify a Record 
+		5.Delete A Record 
+		0.Exit
+Enter your Choice :3
+
+Roll No.	Name	Div	Address
+1		aditi	A	ADB
+2		ANJALI	E	EDC
+3		SHIVANI	B	ERT
+
+		---Menu---
+		1.Add a Record 
+		2.Display a Record 
+		3.Display All Record 
+		4.Modify a Record 
+		5.Delete A Record 
+		0.Exit
+Enter your Choice :4
+
+Enter Roll no. of the Record to be Modified:3
+
+
+		---SubMenu---
+		1.Modify Name
+		2.Modify Division
+		3.Modify Address
+		4.Modify Name and Division 
+		5.Modify Division and Address 
+		6.Modify Address and Name 
+		7.Modify All Three 
+		0.Exit
+Enter your Choice:1
+
+Enter Name:KUNWAR
+
+		Record Modified
+
+		---Menu---
+		1.Add a Record 
+		2.Display a Record 
+		3.Display All Record 
+		4.Modify a Record 
+		5.Delete A Record 
+		0.Exit
+Enter your Choice :3
+
+Roll No.	Name	Div	Address
+1		aditi	A	ADB
+2		ANJALI	E	EDC
+3		KUNWAR	B	ERT
+
+		---Menu---
+		1.Add a Record 
+		2.Display a Record 
+		3.Display All Record 
+		4.Modify a Record 
+		5.Delete A Record 
+		0.Exit
+Enter your Choice :5
+
+Enter Roll no. of the Record to be Modified:3
+
+		Record Deleted
+
+		---Menu---
+		1.Add a Record 
+		2.Display a Record 
+		3.Display All Record 
+		4.Modify a Record 
+		5.Delete A Record 
+		0.Exit
+Enter your Choice :3
+
+Roll No.	Name	Div	Address
+1		aditi	A	ADB
+2		ANJALI	E	EDC
+
+		---Menu---
+		1.Add a Record 
+		2.Display a Record 
+		3.Display All Record 
+		4.Modify a Record 
+		5.Delete A Record 
+		0.Exit
+Enter your Choice :0
+
+		!!!Exited From The MainMenu!!!

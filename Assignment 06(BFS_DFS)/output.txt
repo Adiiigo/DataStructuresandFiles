@@ -1,0 +1,290 @@
+
+
+		---MENU---
+		1.Accept Data
+		2.Display Graph
+		3.Find Max Comments
+		4.Find Person with Max Friends
+		5.Find People With Specfic BirthMonths
+		0.Exit
+
+Enter Your Choice:1
+
+
+Enter Total No.of Vertices :4
+
+
+		No. Of Vertices Entered Are Valid 
+		You can Continue 
+
+		---SUBMENU---
+		1.Using Adjacency List 
+		0.Exit SubMenu
+		Enter Your Choice :1
+
+	---Using Adjacentcy List--- 
+-------------------------------------
+
+Enter Name of Vertex 1 : a
+
+
+Enter Date Of Month No.:6
+
+
+Enter No. Of Comments :10
+
+
+Is There A Link Between Vertex 1 and Vertex 2 ?(y/n) :
+y
+
+
+		Memory Allocation Successful
+		Node 2 Linked
+
+Is There A Link Between Vertex 1 and Vertex 3 ?(y/n) :n
+
+
+Is There A Link Between Vertex 1 and Vertex 4 ?(y/n) :y
+
+
+		Memory Allocation Successful
+		Node 4 Linked
+-------------------------------------
+
+Enter Name of Vertex 2 : b
+
+
+Enter Date Of Month No.:4
+
+
+Enter No. Of Comments :20
+
+
+Is There A Link Between Vertex 2 and Vertex 3 ?(y/n) :y
+
+
+		Memory Allocation Successful
+		Node 3 Linked
+
+Is There A Link Between Vertex 2 and Vertex 4 ?(y/n) :n
+
+-------------------------------------
+
+Enter Name of Vertex 3 : c
+
+
+Enter Date Of Month No.:6
+
+
+Enter No. Of Comments :30
+
+
+Is There A Link Between Vertex 3 and Vertex 4 ?(y/n) :y
+
+
+		Memory Allocation Successful
+		Node 4 Linked
+-------------------------------------
+
+Enter Name of Vertex 4 : d
+
+
+Enter Date Of Month No.:6
+
+
+Enter No. Of Comments :40
+
+
+		---MENU---
+		1.Accept Data
+		2.Display Graph
+		3.Find Max Comments
+		4.Find Person with Max Friends
+		5.Find People With Specfic BirthMonths
+		0.Exit
+
+Enter Your Choice:2
+
+	---Displaying Using Adjacentcy List--- 
+
+Index	Vertex 1	Connected Vertices
+1	a-->		2	4
+2	b-->		1	3
+3	c-->		2	4
+4	d-->		1	3
+
+		---MENU---
+		1.Accept Data
+		2.Display Graph
+		3.Find Max Comments
+		4.Find Person with Max Friends
+		5.Find People With Specfic BirthMonths
+		0.Exit
+
+Enter Your Choice:3
+
+
+		---SUBMENU---
+		1.Using Depth First Search 
+		0.Exit SubMenu
+		Enter Your Choice :1
+
+	---Using depthFirstSearch--- 
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		fsize=0
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		fsize=1
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: d
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		fsize=1
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: c
+
+		You Can Continue!!!
+		Stack Is Not Full.
+
+		You Can Continue!!!
+		Heap Is Not Full.
+
+		fsize=1
+
+		Insertion Successfully Happened
+
+		You Can Continue!!!
+		Stack Is Full.
+
+		You Can Continue!!!
+		Top is Not NULL.
+
+		Deletion Successful
+		Toppest Value: b
+	Max no. of Comments is 40 by Element d
+
+		---MENU---
+		1.Accept Data
+		2.Display Graph
+		3.Find Max Comments
+		4.Find Person with Max Friends
+		5.Find People With Specfic BirthMonths
+		0.Exit
+
+Enter Your Choice:4
+
+	---Displaying Person With Max Friends--- 
+
+		Person a has maximum friends with Maximum Friend count 2
+
+		---MENU---
+		1.Accept Data
+		2.Display Graph
+		3.Find Max Comments
+		4.Find Person with Max Friends
+		5.Find People With Specfic BirthMonths
+		0.Exit
+
+Enter Your Choice:5
+
+Enter Month No.6
+
+		You Can Continue!!!
+		Successful Addition
+		You Can Continue!!!
+		Successful Addition
+
+		Extraction Successful
+		Deleted Data:b
+		You Can Continue!!!
+		Successful Addition
+
+		Extraction Successful
+		Deleted Data:d
+		You Can Continue!!!
+		Successful Addition
+
+		Extraction Successful
+		Deleted Data:c
+		People with Birthmonth 6 is a	d	c	
+
+		---MENU---
+		1.Accept Data
+		2.Display Graph
+		3.Find Max Comments
+		4.Find Person with Max Friends
+		5.Find People With Specfic BirthMonths
+		0.Exit
+
+Enter Your Choice:5
+
+Enter Month No.1
+
+		You Can Continue!!!
+		Successful Addition
+		You Can Continue!!!
+		Successful Addition
+
+		Extraction Successful
+		Deleted Data:b
+		You Can Continue!!!
+		Successful Addition
+
+		Extraction Successful
+		Deleted Data:d
+		You Can Continue!!!
+		Successful Addition
+
+		Extraction Successful
+		Deleted Data:c
+
+		NO Person is not born in 1 month
+
+		---MENU---
+		1.Accept Data
+		2.Display Graph
+		3.Find Max Comments
+		4.Find Person with Max Friends
+		5.Find People With Specfic BirthMonths
+		0.Exit
+
+Enter Your Choice:0
+
+
+		Exited From The  Main Menu

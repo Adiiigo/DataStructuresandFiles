@@ -1,0 +1,32 @@
+/*
+ * ExpTree.h
+ *
+ *  Created on: 25-Jan-2017
+ *      Author: acer
+ */
+
+#ifndef EXPTREE_H_
+#define EXPTREE_H_
+
+struct ExpTreeNode
+{
+	struct ExpTreeNode *lchild ;
+	char data ;
+	struct ExpTreeNode *rchild ;
+} ;
+
+class ExpTree
+{
+	struct ExpTreeNode *root ;
+
+public:
+	ExpTree(void) ;
+	~ExpTree(void) ;
+	int constructTree(char fpostfix[]) ;
+	void getroot(struct ExpTreeNode **node) ;
+	void preorder (struct ExpTreeNode *node) ;
+	void postorder (struct ExpTreeNode *node) ;
+	void inorder (struct ExpTreeNode *node) ;
+} ;
+
+#endif /* EXPTREE_H_ */

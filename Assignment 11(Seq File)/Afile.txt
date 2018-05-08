@@ -1,0 +1,48 @@
+/*
+ * Afile.h
+ *
+ *  Created on: 26-Mar-2017
+ *      Author: acer
+ */
+
+#ifndef AFILE_H_
+#define AFILE_H_
+#define SIZE 10
+
+struct details
+{
+	int roll ;
+	char name[20] ;
+	char div ;
+	char address[100] ;
+};
+
+class Afile
+{
+	struct details s;
+	//struct details student[SIZE] ;
+
+public:
+	Afile();
+	~Afile();
+
+	void getRecordCount(int &count) ;
+	int createDatabase(int &numRecord);
+	int addRecord(struct details fs);
+	void displayARecord(int froll);
+	void displayRecord();
+	int searchRecord(int froll);
+	//int searchRecord(int froll , int &fpos);
+	int modifyNRecord(int froll , char fname[20]);
+	int modifyRecord(int froll , char fdiv);
+	int modifyARecord(int froll , char faddress[100]);
+	int modifyRecord(int froll , char fname[20] , char fdiv);
+	int modifyRecord(int froll , char fdiv , char faddress[100]);
+	int modifyRecord(int froll , char faddress[100] , char fname[20] );
+	int modifyRecord(int froll , char fname[20] , char fdiv , char faddress[100] );
+
+
+	int deleteRecord(int froll);
+};
+
+#endif /* AFILE_H_ */
